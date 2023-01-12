@@ -224,6 +224,7 @@
     }
     .header{
       background-image: none;
+      max-height: 150px;
     }
     
   }
