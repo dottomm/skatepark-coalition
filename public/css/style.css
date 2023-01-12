@@ -214,7 +214,7 @@
     line-height: 300%;
   }
 
-  @media only screen and (max-width: 667px) and (orientation: portrait)  {
+  @media only screen and (max-width: 800px) and (orientation: portrait)  {
     .form{
       background-image: url('../images/sm-minna-stess.jpg');
     }
