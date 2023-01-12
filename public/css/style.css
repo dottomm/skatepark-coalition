@@ -223,8 +223,7 @@
       background-image: url('../images/sm-aiden-sharkey.jpg');
     }
     .header{
-      background-size:15%;
-      flex-wrap: wrap;
+      background-image: none;
     }
     
   }
