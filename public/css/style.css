@@ -214,7 +214,7 @@
     line-height: 300%;
   }
 
-  @media only screen and (max-width: 992px) {
+  @media only screen and (max-width: 1052px) {
     .form{
       background-image: url('../images/sm-minna-stess.jpg');
     }
@@ -223,7 +223,7 @@
       background-image: url('../images/sm-aiden-sharkey.jpg');
     }
     .header{
-      background-size:5%;
+      background-size:15%;
     }
     
   }
