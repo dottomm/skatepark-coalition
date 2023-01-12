@@ -222,5 +222,8 @@
     .belowFold{
       background-image: url('../images/sm-aiden-sharkey.jpg');
     }
+    .header{
+      background-size:5%;
+    }
     
   }
