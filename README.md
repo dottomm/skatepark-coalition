@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Welcome to [Astro](https://astro.build)
 
 [![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/basics)
@@ -48,3 +49,7 @@ All commands are run from the root of the project, from a terminal:
 ## 👀 Want to learn more?
 
 Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+=======
+# skatepark-coalition
+online space for a coalition to assure Petaluma gets the skatepark it deserves
+>>>>>>> 3d3dc89a1c88485e27100cad90ff7309c073c2ea
