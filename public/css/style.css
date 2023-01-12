@@ -1,0 +1,217 @@
+:root {
+    --main-bg-color: #000;
+    --main-font-color:#fff;
+    --form-accent-color:#F2C400;
+    --skate-accent-color:#FB4451;
+    ----accent-gradient: rgb(165, 206, 40);
+  }
+  *{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    
+  }
+  
+  html {
+    scroll-behavior: smooth;
+  }  
+  body {
+    padding: 1em;
+    background-color: var(--main-bg-color);
+    color: var(--main-font-color);
+    font-weight: bold;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  
+  }
+
+  @font-face {
+    font-family: RockFont;
+    src: url(/fonts/marvin-visions/Web/MarvinVisions-Bold.woff);
+  }
+  h1{
+    font-family: rockFont;
+      font-size: 3em;
+  }
+
+  h2, h3, h4, h5{
+    font-size: 2.5em;
+
+    font-family: rockFont;
+  }
+  p{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.5em;
+
+  }
+
+  a{
+    color:var(--main-font-color);
+    padding-left: 6px;
+    font-size: 2rem;
+    }
+  
+  a:visited{
+      color:var(--main-font-color);
+    }
+
+  img {
+    width: 1200px;
+    height: auto;
+    }
+  nav{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-left: 0;
+  }
+
+  nav ul li {
+    justify-content: space-around;
+    align-self: center;
+    padding: .3ch;
+  }
+
+  
+  .post a{
+      color:var(--main-font-color);
+      
+  }
+    
+    
+       ul{
+     
+        display: flex;
+        justify-content: center;
+       }
+    li{
+        font-size:1.3em;
+        padding: 1rem;
+        background-color: var(--accent-font-color);
+        margin-left: 3em;
+        margin-bottom: 1rem;
+        list-style-type: none;
+        max-width: 860px;
+        line-height: 200%;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    
+    li a{
+        color:rgb(21, 76, 90);
+        letter-spacing: .2ch;
+        text-decoration: none;
+    }
+    
+    .abstract{
+      font-family:Arial, Helvetica, sans-serif;
+        letter-spacing: .2ch;
+    }
+    section{
+      padding:1em;
+      min-height: 500px;
+      display: flex;
+      align-content: center;
+    }
+    .header{
+      background-color: var(--form-accent-color);
+      background-image: url('../images/chicken.svg');
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size:10%;
+      display: flex;
+      justify-content: center;      
+      flex-direction: row;
+      overflow:visible;
+      height: 300px;
+    }
+  .aboveFold{
+    display: flex;
+		flex-direction: row;
+		width: 100%;
+		justify-items:top;
+		justify-content: center;
+		flex-wrap: wrap;
+    background-color: var(--skate-accent-color);
+    color:#000;
+   }
+
+  
+
+  .aboveFold h1{
+    color:#fff;
+  }
+
+  
+
+  .form-wrapper{
+    justify-content:  space-evenly;
+    width: 660px;
+  }
+  .form{
+		display: flex;
+  flex-direction: row;
+  min-height: 1050px;
+  width: 100%;
+  justify-items:center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  background-color: #FB4451;
+  background-size: cover;
+  background-image: url("../images/minna-stess.jpeg");
+  background-repeat: no-repeat;
+	}
+.belowFold{
+  min-height: 1050px;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-items:center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  background-color: #FB4451;
+  background-size: cover;
+  background-image: url("../images/aiden-sharkey.jpeg");
+  background-repeat: no-repeat;
+}
+
+.footer{
+  height: 100px!important;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-items:center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  background-color: #FB4451;
+  
+}
+  input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  input[type=submit] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+
+  card{
+    line-height: 300%;
+  }

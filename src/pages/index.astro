@@ -1,0 +1,75 @@
+---
+import Layout from '../layouts/Layout.astro';
+
+import Sharkey from '../images/aiden-sharkey.jpeg';
+import Minna from '../images/minna-stess.jpeg';
+import Chicken from '../images/chicken.svg';
+---
+
+<Layout title="Luma Skatepark Coalition">
+	<main>
+		<div class='header'>
+			<h1 >Luma Skatepark Coalition</h1>
+			
+		</div>
+		
+		<section class='aboveFold' id='aboveFold'>
+			
+
+			<h3>Thank you for your support!</h3>
+			<div class="content">
+			<p>Please join our mailing list and add your name to the list of supporters who beleive Petaluma needs to give our skaters a better place to skate   </p>
+	
+			
+		</div>
+				<div class='form-wrapper'>
+					<form  action="https://api.staticforms.xyz/submit" method="post">
+					<input type="text" name="name" placeholder="Name" required>
+					<input type="text" name="email" placeholder="Email" required/>
+					<input type="text" name="honeypot" style="display:none">
+					<input type="hidden" name="accessKey" value="3a0ae715-4a50-4998-b304-0502c1dffebf">
+					<input type="hidden" name="subject" value="Contact us from - Luma Skatepark Coalition" />
+					<input type="hidden" name="replyTo" value="@">
+					<input type="hidden" name="redirectTo" value="/success.astro">
+					<input type="submit" value="Let's Go!" />
+				</form>
+			</div>
+		</section>
+		<section class='form' id='form'>
+			<div>
+				<card>
+				<p><a href='https://cityofpetaluma.org/skate-park-design/' target="_blank">Read about the new skatepark on the Petaluma City website</a></p>
+			</card>
+			
+				<card>
+					<p>Come attend the workshop Tuesday January 17th 320 N. McDowell Blvd. Tuesday, January 17, 2023 at 6 PM for our first community workshop. </p>
+				</card>
+				
+			</div>
+		
+			
+			
+		</section>
+
+		<section class='belowFold'>
+			<p>Take the <a href="https://docs.google.com/forms/d/e/1FAIpQLSekfZ8Jl2Nwx4Xw15CDG_pQoHZiXOb4sgzWkZENluHt1rJN8A/viewform" target="_blank">Grindline Feedback Survey</a> and help decide what our park will look like.</p>
+			
+		</section>
+		<section class='footer'>
+			<p>photos of Minna Stess and Aiden Sharkey by CRISSY PASCUAL/ARGUS-COURIER STAFF</p>
+		</section>
+	</main>
+</Layout>
+
+<style>
+	
+
+	.text-gradient {
+		background-image: var(--accent-gradient);
+		-webkit-background-clip: text;
+		-webkit-text-fill-color: transparent;
+		background-size: 400%;
+		background-position: 0%;
+	}
+	
+</style>
