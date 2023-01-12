@@ -224,6 +224,7 @@
     }
     .header{
       background-size:15%;
+      flex-direction: column;
     }
     
   }
