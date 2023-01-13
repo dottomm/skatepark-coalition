@@ -3,7 +3,7 @@
     --main-font-color:#fff;
     ---accent-gradient: rgb(165, 206, 40);
     --form-accent-color:#F2C400;
-    --skate-accent-color:#FB4451;
+    --skate-accent-color:rgb(165, 206, 40);
     --announce-color:#07A5F3;
    
   }
@@ -18,7 +18,7 @@
     scroll-behavior: smooth;
   }  
   body {
-    padding:1em;
+    
     background-color:var(--main-bg-color);
     color: var(--main-font-color);
     font-weight: bold;
