@@ -75,12 +75,15 @@
       align-content: center;
     }
     .header{
+      
       background-color: var(--form-accent-color);
-      /*
+     
+      
             background-image: url('../images/chicken.svg');
-*/
-    background-image: url('../images/skater2.svg');
+      /*
 
+    background-image: url('../images/skater2.svg');
+*/
       background-repeat: no-repeat;
       background-position: center;
       background-size:10%;
