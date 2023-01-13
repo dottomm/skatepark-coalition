@@ -3,6 +3,7 @@
     --main-font-color:#fff;
     --form-accent-color:#F2C400;
     --skate-accent-color:#FB4451;
+    --announce-color:#07A5F3;
     ----accent-gradient: rgb(165, 206, 40);
   }
   *{
@@ -148,7 +149,6 @@
   .form{
 		display: flex;
   flex-direction: row;
-  min-height: 1050px;
   width: 100%;
   justify-items:center;
   justify-content: space-evenly;
@@ -157,8 +157,30 @@
   background-size: cover;
   background-image: url("../images/luma-bowl.jpg");
   background-repeat: no-repeat;
+  height: 300px;
 	}
- 
+ .announce{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-items:center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  background-color: var(--announce-color);
+  height: 300px;
+  
+ }
+ .announce2{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-items:center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  background-color: var(--skate-accent-color);
+  height: 300px;
+  
+ }
 .belowFold{
   min-height: 1050px;
   display: flex;
@@ -173,15 +195,15 @@
   background-repeat: no-repeat;
 }
 
-.footer{
-  height: 100px!important;
+.credit{
+  max-height: 50px;
   display: flex;
   flex-direction: row;
   width: 100%;
   justify-items:center;
   justify-content: space-evenly;
   flex-wrap: wrap;
-  background-color: #FB4451;
+  background-color:var(--skate-accent-color);
   
 }
   input[type=text], select {
@@ -196,7 +218,7 @@
   
   input[type=submit] {
     width: 100%;
-    background-color: #4CAF50;
+    background-color: var(--main-bg-color);
     color: white;
     padding: 14px 20px;
     margin: 8px 0;
