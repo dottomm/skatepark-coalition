@@ -1,10 +1,11 @@
 :root {
     --main-bg-color: #000;
     --main-font-color:#fff;
+    ---accent-gradient: rgb(165, 206, 40);
     --form-accent-color:#F2C400;
     --skate-accent-color:#FB4451;
     --announce-color:#07A5F3;
-    ----accent-gradient: rgb(165, 206, 40);
+   
   }
   *{
     margin:0;
@@ -17,8 +18,8 @@
     scroll-behavior: smooth;
   }  
   body {
-    padding: 1em;
-    background-color: var(--main-bg-color);
+    padding:1em;
+    background-color:var(--main-bg-color);
     color: var(--main-font-color);
     font-weight: bold;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -35,19 +36,18 @@
   }
 
   h2, h3, h4, h5{
-    font-size: 2.5em;
-
     font-family: rockFont;
+    font-size: 2.5em;
   }
+  
   p{
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     font-size: 1.5em;
-
   }
 
+  /*Global Link Style */
   a{
     color: var(--form-accent-color);
-   
     padding-left: 6px;
     font-size: 2rem;
     text-decoration: none;
@@ -62,62 +62,12 @@
     }
     */
 
-    
-
-
-  nav{
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    padding-left: 0;
-  }
-
-  nav ul li {
-    justify-content: space-around;
-    align-self: center;
-    padding: .3ch;
-  }
-
   
-  .post a{
-      color:var(--main-font-color);
-      
-  }
-    
-    
-       ul{
-     
-        display: flex;
-        justify-content: center;
-       }
-    li{
-        font-size:1.3em;
-        padding: 1rem;
-        background-color: var(--accent-font-color);
-        margin-left: 3em;
-        margin-bottom: 1rem;
-        list-style-type: none;
-        max-width: 860px;
-        line-height: 200%;
-        display: flex;
-        flex-direction: column;
-    }
-    
-    
-    li a{
-        color:rgb(21, 76, 90);
-        letter-spacing: .2ch;
-        text-decoration: none;
-    }
-    
-    .abstract{
-      font-family:Arial, Helvetica, sans-serif;
-        letter-spacing: .2ch;
-    }
+
+ 
     section{
       padding:1em;
       min-height: 500px;
-      display: flex;
       align-content: center;
     }
     .header{
@@ -132,31 +82,26 @@
       overflow:visible;
       height: 300px;
     }
+  
   .aboveFold{
     display: flex;
 		flex-direction: row;
 		width: 100%;
-		justify-items:top;
 		justify-content: center;
 		flex-wrap: wrap;
     background-color: var(--skate-accent-color);
     color:#000;
    }
 
-  
+ 
 
-  .aboveFold h1{
-    color:#fff;
-  }
-
-  
-
-  .form-wrapper{
+.form-wrapper{
     justify-content:  space-evenly;
     width: 660px;
   }
-  .bowl{
-		display: flex;
+  
+.bowl{
+  display: flex;
   flex-direction: row;
   width: 100%;
   justify-items:center;
@@ -167,37 +112,19 @@
   background-image: url("../images/luma-bowl.jpg");
   background-repeat: no-repeat;
   height: 300px;
-	}
+}
 
-  .success{
-    display: flex;
+.success{
+  display: flex;
   flex-direction: row;
   width: 100%;
   justify-items:center;
   justify-content: space-evenly;
   flex-wrap: wrap;
   background-color: var(--announce-color);
-  height: 300px;
-   
+  height: 300px;   
   }
-  .copy-wrapper{
-    position: static;
-    margin-top: 0em;
-    display: flex;
-    flex-direction: row;
-    width: 100%;
-  }
- .copy{
-  margin-top: 7ch;
-  margin-right: 3ch;
-  font-family:monospace;
-  font-weight: 300;
-  padding: auto;
-  width: 34%;
-    font-size: 1.2em;
-    color:rgb(23, 21, 21);
-    line-height: 170%;
-  }
+
  .announce{
   display: flex;
   flex-direction: row;
@@ -218,8 +145,9 @@
   flex-wrap: wrap;
   background-color: var(--skate-accent-color);
   height: 300px;
-  
- }
+
+}
+
 .belowFold{
   min-height: 1050px;
   display: flex;
@@ -251,9 +179,10 @@
     margin: 8px 0;
     display: inline-block;
     border: 1px solid #ccc;
-    border-radius: 4px;
+    border-radius: 2px;
     box-sizing: border-box;
   }
+
   
   input[type=submit] {
     width: 100%;
@@ -269,13 +198,14 @@
   input[type=submit]:hover {
     background-color: #45a049;
   }
+
   
 
-  card{
+card{
     line-height: 300%;
   }
 
-  .text-accent{
+.text-accent{
     font-style: italic;
   }
 
