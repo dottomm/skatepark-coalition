@@ -18,7 +18,7 @@
     scroll-behavior: smooth;
   }  
   body {
-    padding:1em;
+    padding:0em;
     background-color:var(--main-bg-color);
     color: var(--main-font-color);
     font-weight: bold;
@@ -29,6 +29,10 @@
   @font-face {
     font-family: RockFont;
     src: url(/fonts/marvin-visions/Web/MarvinVisions-Bold.woff);
+  }
+
+  .navbar{
+    display: sticky;
   }
   h1{
     font-family: rockFont;

@@ -1,5 +1,5 @@
 ---
-import Layout from '../layouts/Layout.astro';
+import Layout from '../layouts/BSLayout.astro';
 
 
 ---
@@ -9,6 +9,9 @@ import Layout from '../layouts/Layout.astro';
             <div class="main-content">
                 <section class='bowl'>
                     <h2>Donate </h2>
+                </section>
+                <section class='announce'>
+                    <h1>Hey!</h1>
                 </section>
                 <!-- main content goes here -->
             </div>
@@ -22,7 +25,10 @@ import Layout from '../layouts/Layout.astro';
 </Layout>
 <style>
     .container {
+        width: 100%;
     display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 
 .main-content {
