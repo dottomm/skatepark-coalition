@@ -76,7 +76,11 @@
     }
     .header{
       background-color: var(--form-accent-color);
-      background-image: url('../images/chicken.svg');
+      /*
+            background-image: url('../images/chicken.svg');
+*/
+    background-image: url('../images/skater2.svg');
+
       background-repeat: no-repeat;
       background-position: center;
       background-size:10%;
@@ -125,8 +129,9 @@
   justify-items:center;
   justify-content: space-evenly;
   flex-wrap: wrap;
-  background-color: var(--announce-color);
+  background-color: var(--skate-accent-color);
   height: 300px;   
+  color:var(--main-bg-color);
   }
 
  .announce{
