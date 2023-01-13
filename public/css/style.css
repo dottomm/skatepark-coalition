@@ -49,11 +49,18 @@
     color:var(--main-font-color);
     padding-left: 6px;
     font-size: 2rem;
+    text-decoration: none;
     }
-  
-  a:visited{
+
+    a:hover{
+      color: var(--form-accent-color);
+    }
+  /*
+    a:visited{
       color:var(--main-font-color);
     }
+    */
+
 
 
   nav{
