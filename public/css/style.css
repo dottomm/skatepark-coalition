@@ -155,7 +155,7 @@
   flex-wrap: wrap;
   background-color: #FB4451;
   background-size: cover;
-  background-image: url("../images/minna-stess.jpeg");
+  background-image: url("../images/luma-bowl.jpg");
   background-repeat: no-repeat;
 	}
  
@@ -216,7 +216,7 @@
 
   @media only screen and (max-width: 692px)  {
     .form{
-      background-image: url('../images/sm-minna-stess.jpg');
+      background-image: url('../images/luma-bowl.jpg');
     }
 
     .belowFold{
