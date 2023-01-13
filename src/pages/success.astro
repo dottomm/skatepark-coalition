@@ -9,11 +9,34 @@ import Chicken from '../images/chicken.svg';
 <Layout title="Luma Skatepark Coalition">
 	<main>
 		<div class='header'>
-			<h1 >Luma Skatepark Coalition</h1>
+			<h1 class='header-link'><a href='../index.html'>Luma Skatepark Coalition</a></h1>
 			
 		</div>
-		<div class='aboveFold'>
-			<h2>Success!</h2>
-			<p>Thank you for your support</p>
-		</div>
-		<div><h2><a href='https://luma-skate-park.netlify.app/'>Home</a></h2></div>
+		<section class='success' id='success'>
+			<div class='content'>
+			<h3>Thank you for signing up!</h3>
+			<p>We'll do our best to keep you informed about the decisions made by the city and the Parks and Recreation Department, and inform you of any opportunity to participate.</p>
+
+			<p>Thank You, <br />
+			Sincerly,<br />
+		<span class='text-accent'>Luma Skatepark Coalition</span></p>
+	</div>
+
+	<div>
+		<h2><a href='../index.html'>Home</a></h2>
+	</div>
+	</section>
+
+	<style>
+		.header-link a:link{
+      color: #fff !important;
+    }
+
+	.header-link a:visited{
+      color: #fff !important;
+    }
+
+	.header-link a:hover{
+		color:#F2C400;
+	}
+	</style>
