@@ -46,14 +46,15 @@
   }
 
   a{
-    color:var(--main-font-color);
+    color: var(--form-accent-color);
+   
     padding-left: 6px;
     font-size: 2rem;
     text-decoration: none;
     }
 
     a:hover{
-      color: var(--form-accent-color);
+      color:var(--main-font-color);
     }
   /*
     a:visited{
@@ -153,7 +154,7 @@
     justify-content:  space-evenly;
     width: 660px;
   }
-  .form{
+  .bowl{
 		display: flex;
   flex-direction: row;
   width: 100%;
@@ -166,6 +167,24 @@
   background-repeat: no-repeat;
   height: 300px;
 	}
+  .copy-wrapper{
+    position: static;
+    margin-top: 0em;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+  }
+ .copy{
+  margin-top: 7ch;
+  margin-right: 3ch;
+  font-family:monospace;
+  font-weight: 300;
+  padding: auto;
+  width: 34%;
+    font-size: 1.2em;
+    color:rgb(23, 21, 21);
+    line-height: 170%;
+  }
  .announce{
   display: flex;
   flex-direction: row;
