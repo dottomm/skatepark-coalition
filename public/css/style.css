@@ -121,8 +121,9 @@
   justify-items:center;
   justify-content: space-evenly;
   flex-wrap: wrap;
-  background-color: var(--announce-color);
+  background-color: var(--skate-accent-color);
   height: 300px;   
+  color:var(--main-bg-color);
   }
 
  .announce{
@@ -132,7 +133,7 @@
   justify-items:center;
   justify-content: space-evenly;
   flex-wrap: wrap;
-  background-color: var(--skate-accent-color);
+  background-color: var(--announce-color);
   height: 300px;
   
  }
