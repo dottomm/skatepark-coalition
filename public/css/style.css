@@ -265,6 +265,9 @@ card{
       background-position: center bottom;
       max-height: 220px;
     }
-  
+    .insta{
+      display: none;
+    }
+    
   }
 
