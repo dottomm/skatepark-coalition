@@ -117,7 +117,18 @@
 justify-content: center;
   max-width:60em;
 }
-
+.insta{
+  display: flex;
+  flex-direction: column;
+  margin-top: 2em;
+  width: 100%;
+  min-height: 200px;
+  justify-items: center;
+  justify-content: center;
+}
+.insta p{
+  text-align: center;
+}
 .form-wrapper{
     justify-content:  space-evenly;
     width: 660px;
@@ -239,6 +250,8 @@ card{
     font-style: italic;
   }
 
+  
+
   @media only screen and (max-width: 692px)  {
     .form{
       background-image: url('../images/luma-bowl.jpg');
@@ -252,9 +265,9 @@ card{
       background-position: center bottom;
       max-height: 220px;
     }
+    .insta{
+      display: none;
+    }
     
   }
 
-  .insta{
-    float: right;
-  }
