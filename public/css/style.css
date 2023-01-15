@@ -114,8 +114,8 @@
 }
 
 .message .content{
-  margin-top:-15em;
- max-width:60em;
+justify-content: center;
+  max-width:60em;
 }
 
 .form-wrapper{
