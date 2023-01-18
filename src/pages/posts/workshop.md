@@ -7,7 +7,7 @@ pubDate: 2023-01-17
 author: LSC
 ---
 # It was a great community turn out as expected. 
-Lots of great commentary and questions. 
+Lots of great commentary and questions.
 
 
 The attendees were glad to have a company as reputable as Grindline help design a skatepark Petaluma can be proud of. I think the consesus was community wants to keep the exisiting skatepark and develop a new skate feature with the current funds ($469,000), on a new piece of land that can accomodate a larger skatepark and look to philanthropy and fund raising to keep the project growing. 
@@ -25,7 +25,7 @@ The attendees were glad to have a company as reputable as Grindline help design 
 
         Bjorn Griepenburg 
         Project Manager 
-        bgriepenburg_at_cityofpetaluma.org
+        bgriepenburg@cityofpetaluma.org
         
 </card>
 

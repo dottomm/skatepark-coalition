@@ -7,11 +7,12 @@ import { SITE_TITLE } from '../config';
 	<h1>
 		{SITE_TITLE}
 	</h1>
-	<nav>
-		<!--<HeaderLink href="/">Home</HeaderLink> -->
-		<!-- <HeaderLink href="/about">About</HeaderLink> -->
-	</nav>
+	
 </header>
+<nav>
+	<HeaderLink href="/">Home</HeaderLink> 
+	<HeaderLink href="/blog/">Blog</HeaderLink>
+</nav>
 <style>
 	header {
 		margin: 0em 0 2em;
@@ -22,6 +23,10 @@ import { SITE_TITLE } from '../config';
 
 
 	header nav a{
+		color:#fff;
+	}
+
+	header nav a:visited{
 		color:#fff;
 	}
 	h2 {
