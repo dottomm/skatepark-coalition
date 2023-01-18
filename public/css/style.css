@@ -229,6 +229,12 @@ justify-content: center;
   color:#444;
   font-family::Verdana, Arial, sans-serif;
 }
+
+.blog p{
+  font-size:1.3em;
+  line-height:200%;
+  margin-left:1em;
+}
   input[type=text], select {
     width: 100%;
     padding: 12px 20px;
