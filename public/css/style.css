@@ -29,6 +29,15 @@
     font-family: RockFont;
     src: url(/fonts/marvin-visions/Web/MarvinVisions-Bold.woff);
   }
+
+  pre{
+    margin-top:1em;
+    margin-bottom:1em;
+
+    font-size:2em;
+    line-height:180%;
+    
+  }
   h1{
     font-family: rockFont;
       font-size: 3em;
@@ -214,6 +223,12 @@ justify-content: center;
   background-color:var(--skate-accent-color);
   
 }
+
+.blog{
+  background-color:#fff;
+  color:#444;
+  font-family::Verdana, Arial, sans-serif;
+}
   input[type=text], select {
     width: 100%;
     padding: 12px 20px;
@@ -240,7 +255,11 @@ justify-content: center;
     background-color: #45a049;
   }
 
-  
+  article{
+   
+    font-size:smaller;
+    max-width:1200px;
+  }
 
 card{
     line-height: 300%;
