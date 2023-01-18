@@ -6,7 +6,7 @@ description: Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam v
 pubDate: 2023-01-17
 author: LSC
 ---
-# It was a great community turn out as expected. 
+## It was a great community turn out as expected. 
 Lots of great commentary and questions.
 
 
@@ -16,18 +16,13 @@ The attendees were glad to have a company as reputable as Grindline help design 
 
 ## Bjorn and Chris shared their contact information, so feel free to reach out to them with any questions or ideas.
 
-<card>
-
         Matt Fluegga
         Chief Executive Officer
         matt@grindline.com
-
 
         Bjorn Griepenburg 
         Project Manager 
         bgriepenburg@cityofpetaluma.org
         
-</card>
 
-
-## We had a number of people [join our mailing list](../index.html#aboveFold) list. Thank you and please spread the word. 
+ We had a number of people [join our mailing list](../index.html#aboveFold). Thank you, and please spread the word. 

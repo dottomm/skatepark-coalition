@@ -34,7 +34,7 @@
     margin-top:1em;
     margin-bottom:1em;
 
-    font-size:2em;
+    font-size:2.2em;
     line-height:180%;
     
   }
@@ -225,9 +225,14 @@ justify-content: center;
 }
 
 .blog{
-  background-color:#fff;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-items:center;
+  justify-content: center;
+  flex-wrap: wrap;
+  background-color: #fff;
   color:#444;
-  font-family::Verdana, Arial, sans-serif;
 }
 
 .blog p{
@@ -235,6 +240,12 @@ justify-content: center;
   line-height:200%;
   margin-left:1em;
 }
+
+article img{
+padding:1em;
+
+}
+  
   input[type=text], select {
     width: 100%;
     padding: 12px 20px;
@@ -267,9 +278,7 @@ justify-content: center;
     max-width:1200px;
   }
 
-card{
-    line-height: 300%;
-  }
+
 
 .text-accent{
     font-style: italic;
