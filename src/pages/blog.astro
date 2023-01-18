@@ -1,13 +1,14 @@
 ---
+//import Layout from '../layouts/Layout.astro';
 import BaseHead from '../components/BaseHead.astro';
 import Header from '../components/Header.astro';
-import Footer from '../components/Footer.astro';
+//import Footer from '../components/Footer.astro';
 //import Paginator from '../components/Paginator.astro';
 
 import { SITE_TITLE, SITE_DESCRIPTION } from '../config';
 
 // Use Astro.glob() to fetch all posts, and then sort them by date.
-const posts = (await Astro.glob('./blog/*.{md,mdx}')).sort(
+const posts = (await Astro.glob('../posts/*.{md,mdx}')).sort(
 	(a, b) => new Date(b.frontmatter.pubDate).valueOf() - new Date(a.frontmatter.pubDate).valueOf()
 );
 
@@ -20,7 +21,11 @@ const posts = (await Astro.glob('./blog/*.{md,mdx}')).sort(
 	<head>
 		<BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
 		<style>
+			body{
+				background-color:#ccc;
+			}
 			ul {
+				max-width:860px;
 				list-style-type: none;
 				padding: unset;
 			}
@@ -126,6 +131,8 @@ const posts = (await Astro.glob('./blog/*.{md,mdx}')).sort(
 				</ul>
 		
 		</main>
-		<Footer />
+		<!--
+			<Footer />
+		 -->
 	</body>
 </html>
