@@ -237,8 +237,17 @@ justify-content: center;
 
 .blog p{
   font-size:1.3em;
-  line-height:200%;
+  line-height:180%;
   margin-left:1em;
+  margin-bottom:6px;
+}
+
+.blog .funds{
+  color: var(--skate-accent-color);
+}
+
+article{
+  width: 800px;
 }
 
 article img{
