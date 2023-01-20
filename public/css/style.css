@@ -308,6 +308,10 @@ padding:1em;
     .insta{
       display: none;
     }
+
+    .article{
+      max-width: 350px;
+    }
     
   }
 
