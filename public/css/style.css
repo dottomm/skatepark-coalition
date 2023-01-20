@@ -243,15 +243,17 @@ justify-content: center;
 }
 
 article{
-  margin: 5% auto;
+  line-height: 1.8;
+  padding: 1em;
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
-  max-width: 73%;
+  max-width: 900px;
 }
 
 article img{
+  align-self: center;
 padding:1em;
+
 
 }
   
@@ -281,10 +283,6 @@ padding:1em;
     background-color: #45a049;
   }
 
-  
-
-
-
 .text-accent{
     font-style: italic;
   }
@@ -307,7 +305,8 @@ padding:1em;
     .insta{
       display: none;
     }
-
+    .article{
+      overflow: hidden;    
 
   }
 
