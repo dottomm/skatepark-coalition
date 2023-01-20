@@ -1,0 +1,61 @@
+---
+import Layout from '../layouts/BSLayout.astro';
+
+
+---
+<Layout title="Donate To Luma Skatepark Coalition">
+	<main>
+        <div class="wrapper">
+            <div class="main-content">
+                <div class='header'>
+                    <h1 >Luma Skatepark Coalition</h1>
+                </div>
+                <section class='bowl'>
+                    <h2>Donate </h2>
+                </section>
+                <section class='announce'>
+                    <h1>Hey!</h1>
+                </section>
+                <!-- main content goes here -->
+            </div>
+            <div class="sidebar">
+                <!-- sidebar content goes here -->
+                <h2>Links</h2>
+                <ul>
+                    <li>Donor Perect</li>
+                    <li>Raise</li>
+                    <li>Virtuous</li>
+                    <li>DonorBox</li>
+                    <li>Eleo</li>
+                
+                </ul>
+            </div>
+        </div>
+
+    </main>
+</Layout>
+<style>
+    .wrapper {
+        width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.main-content {
+    flex: 1; /* takes up the remaining space */
+}
+
+.sidebar {
+    width: 220px; /* width of sidebar */
+    margin-left: auto; /* pushes sidebar to the right */
+    background-color:#FB4451;
+    padding-left:2ch;
+
+}
+
+.sidebar li{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding:1em;
+}
+</style>
