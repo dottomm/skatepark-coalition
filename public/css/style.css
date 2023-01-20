@@ -319,9 +319,27 @@ padding:1em;
       overflow: hidden;    
 
     }
+    .logo-smallest{
+      display: none;
+    }
     .logos-small {
       
       display: block;
+      margin: auto;
+    }
+    .logos {
+      display: none;
+    }
+  }
+
+  @media (max-width: 500px) {
+    .logo-smallest{
+      display: block;
+      margin:auto;
+    }
+    .logos-small {
+      
+      display: none;
       margin: auto;
     }
     .logos {

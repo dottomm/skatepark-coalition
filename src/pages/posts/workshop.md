@@ -2,6 +2,7 @@
 layout: "../../layouts/BlogPost.astro"
 heroImage: "../../images/post-images/meeting-sign.png"
 smHeroImage: "../../images/post-images/sm-meeting-sign.png"
+smallestImage: "../../images/post-images/smallest-meeting-sign.png"
 title: Grindline Community Workshop
 description: January 17, The City of Petaluma hosted a workshop to engage community memebers in the Skate Petaluma project.
 pubDate: 2023-01-17
