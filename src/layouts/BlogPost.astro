@@ -12,13 +12,13 @@ export interface Props {
 		updatedDate?: string;
 		heroImage?: string;
 		smHeroImage?:string;
-		smallestImage?:string;
+		
 
 	};
 }
 
 const {
-	content: { title, description, pubDate, updatedDate, heroImage,smHeroImage,smallestImage },
+	content: { title, description, pubDate, updatedDate, heroImage,smHeroImage },
 } = Astro.props;
 ---
 
@@ -59,8 +59,7 @@ const {
 					<img class="logos-small" 
 					src={smHeroImage} />
 
-					<img class="logos-smallest" 
-					src={smallestImage} />
+				
 				)}
 				<slot />
 			</article>
