@@ -1,12 +1,13 @@
 ---
 layout: "../../layouts/BlogPost.astro"
-heroImage: "../../images/meeting-sign.png"
+heroImage: "../../images/post-images/meeting-sign.png"
+smHeroImage: "../../images/post-images/meeting-sign.png"
 title: Grindline Community Workshop
 description: January 17, The City of Petaluma hosted a workshop to engage community memebers in the Skate Petaluma project.
 pubDate: 2023-01-17
 author: LSC
 ---
-## It was a great community turn out.
+## It was a great community turn out
 Bjorn Griepenburg, Project Manager at The City of Petaluma bought pizzas and hosted a community workshop along with Matt Fluegga, Chief Executive Officer of [Grindline Skateparks](https://grindline.com/) to share with the Petaluma skateboard community a plan to finally build an improved skatepark.
 
 There were lots of great discussions. Thank you to Matt and his team for coming to Petaluma and answering our questions.
@@ -33,7 +34,7 @@ Grindline Skateparks will be  working with The City Of Petaluma to determine whi
 
 ## Funding
 
-The city has granted the Petaluma Skate project <span class='funds'>$469,000</span> from funds raised by Measure M.
+The city has granted the Petaluma Skate project <span class='funds'>$469,000</span> from funds raised by <a href='https://cityofpetaluma.org/measure-m-parks-for-all/#:~:text=Approved%20by%2072.6%20percent%20of,maintain%2C%20protect%20and%20operate%20parks.'>Measure M</a>.
 
 Grindline Skateparks was paid <span class='funds'>$90,000</span> to consult, evaluate and design our next skatepark. 
 After City of Petaluma approves a design the project will go out to bid. 
