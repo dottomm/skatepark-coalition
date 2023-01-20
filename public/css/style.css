@@ -240,6 +240,7 @@ justify-content: center;
   line-height:180%;
   margin-left:1em;
   margin-bottom:6px;
+  text-align: justify;
 }
 
 .blog .funds{
@@ -247,7 +248,7 @@ justify-content: center;
 }
 
 article{
-  width: 800px;
+  width: 780px;
 }
 
 article img{

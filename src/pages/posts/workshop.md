@@ -21,7 +21,7 @@ Luma Skatepark Coalition will make the survey results available here as soon as 
 
 ## Location
 
-The park(s) will be build on city owned land, and the list of locations that the City Of Petaluma have agreed to consider for a new skatepark are:
+The park(s) will be built on city owned land, and the list of locations that the City Of Petaluma have agreed to consider for a new skatepark are:
         
         - Leghorn Park
         - Luccessi Park
@@ -37,6 +37,12 @@ The city has granted the Petaluma Skate project <span class='funds'>$469,000</sp
 
 Grindline Skateparks was paid <span class='funds'>$90,000</span> to consult, evaluate and design our next skatepark. 
 After City of Petaluma approves a design the project will go out to bid. 
+
+
+        $469,000
+        -$90,000
+        __________
+        $379,000
 
 <span class='funds'>Remaining Skatepark Funds: $379,000</span>
 
