@@ -93,7 +93,16 @@
       overflow:visible;
       height: 300px;
     }
-  
+    .message{
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      justify-content: center;
+      flex-wrap: wrap;
+      background-color: var(--form-accent-color);
+      color:#000; 
+      max-height: 75px!important;
+    }
   .aboveFold{
     display: flex;
 		flex-direction: row;
@@ -110,20 +119,12 @@
     max-width:60em;
      }
    
- .message{
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-  justify-content: center;
-  flex-wrap: wrap;
-  background-color: var(--form-accent-color);
-  color:#000; 
-  max-height: 75px!important;
-}
+ 
 
 .message .content{
+  text-align: left;
 justify-content: center;
-  max-width:60em;
+  max-width:57em;
 }
 .insta{
   display: flex;

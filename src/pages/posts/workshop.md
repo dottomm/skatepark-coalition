@@ -61,5 +61,5 @@ Bjorn and Chris shared their contact information, so feel free to reach out to t
         Project Manager 
         bgriepenburg@cityofpetaluma.org
     
-We had a number of people join our [mailing list](../index.html#aboveFold). Thank you, and please spread the word.
+We had a number of people join our [mailing list](../../index.html#aboveFold). Thank you, and please spread the word.
 
