@@ -162,17 +162,13 @@ justify-content: center;
   width: 100%;
   justify-items:center;
   justify-content: space-evenly;
-  flex-wrap: wrap;
+  flex-wrap: no-wrap;
   background-color: var(--skate-accent-color);
   height: 300px;   
   color:var(--main-bg-color);
   }
 
-  .success .content{
-  
-    max-width:60em;
 
-  }
 
  .announce{
   display: flex;
