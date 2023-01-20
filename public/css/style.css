@@ -295,9 +295,11 @@ padding:1em;
     font-style: italic;
   }
 
-  
+  .logos-small {
+    display: none;
+  }
 
-  @media only screen and (max-width: 692px)  {
+  @media only screen and (max-width: 1100px)  {
     .form{
       background-image: url('../images/luma-bowl.jpg');
     }
@@ -316,5 +318,13 @@ padding:1em;
     .article{
       overflow: hidden;    
 
-  }
+    }
+    .logos-small {
+      
+      display: block;
+      margin: auto;
+    }
+    .logos {
+      display: none;
+    }
   }

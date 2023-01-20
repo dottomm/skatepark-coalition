@@ -15,7 +15,7 @@ export interface Props {
 }
 
 const {
-	content: { title, description, pubDate, updatedDate, heroImage },
+	content: { title, description, pubDate, updatedDate, heroImage,smHeroImage },
 } = Astro.props;
 ---
 
@@ -45,14 +45,16 @@ const {
 				<h2>{title}</h2>
 				{pubDate}
 				<hr/>
+			
 
 				{heroImage && (
 					<img
-						width={390}
-						height={560}
+						class="logos"
 						src={heroImage}
 						alt=""
 					/>
+					<img class="logos-small" 
+					src={smHeroImage} />
 				)}
 				<slot />
 			</article>
