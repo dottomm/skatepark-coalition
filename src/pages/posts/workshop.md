@@ -2,7 +2,7 @@
 layout: "../../layouts/BlogPost.astro"
 heroImage: "../../images/meeting-sign.png"
 title: Grindline Community Workshop
-description: The City of Petaluma hosted a workshop to engage community memebers in the Skate Petaluma project.
+description: January 17, The City of Petaluma hosted a workshop to engage community memebers in the Skate Petaluma project.
 pubDate: 2023-01-17
 author: LSC
 ---
@@ -14,7 +14,7 @@ There were lots of great discussions. Thank you to Matt and his team for coming 
 
 
 ## Survey Results
-Prior to the community workshop a survey was circulated by Grindline Skateparks in an effort to gauge a list of park requirements and requests. The City of Petaluma will review the Grindline Skateparks survey results and approve a design that best covers all skaters wishes.  
+Prior to the community workshop a survey was circulated among the skateboard communtiy by Grindline Skateparks in an effort to gauge a list of park requirements and requests. The City of Petaluma will review the Grindline Skateparks survey results and approve a design that best covers all skaters wishes.  
 
 Luma Skatepark Coalition will make the survey results available here as soon as we receive them so that  we can all provide feedback based on the same information. 
 

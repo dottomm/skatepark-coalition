@@ -1,5 +1,4 @@
 ---
-//import Layout from '../layouts/Layout.astro';
 import BaseHead from '../components/BaseHead.astro';
 import Header from '../components/Header.astro';
 //import Footer from '../components/Footer.astro';
@@ -22,7 +21,7 @@ const posts = (await Astro.glob('./posts/*.{md,mdx}')).sort(
 		<BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
 		<style>
 			body{
-				background-color:#ccc;
+				background-color:var(  --main-bg-color: #000);
 			}
 			ul {
 				max-width:860px;
@@ -62,9 +61,7 @@ const posts = (await Astro.glob('./posts/*.{md,mdx}')).sort(
 				text-align: center;
 				justify-content: center;
 				margin-bottom: 1rem;
-				border:2px solid #5ca9f2;
 				background-color:var(--color-secondary);
-					border-radius: 18px;
 			}
 
 			.blog-links_list li p{
@@ -82,54 +79,26 @@ const posts = (await Astro.glob('./posts/*.{md,mdx}')).sort(
 				
 			}
 
-			form input {
-  			width: 100%;
-			}
-
-			form input[type=text] {
-			width: 100%;
-			padding: 12px 20px;
-			margin: 8px 0;
-			box-sizing: border-box;
-			}
-
-			.hidden{
-				display: none;
-			}
-
-			.btn{
-				width: 100%;
-				padding:1rem;
-				cursor: pointer;
-			}
-
-			.message{
-				font-family: roboto;
-				font-size:1.3rem;
-			}
-
- 
- .btn a:hover{
-	background-color: #FF6347;
-}
-			
+						
 		</style>
 	</head>
 	<body>
 		<Header />
 		<main>
-			<section>
+			<section class='announce'>
 				<ul class='blog-links_list'>
 					{posts.map((post) => (
 						<li class='blog_link'>
 							
-							<div><a href={post.url}>{post.frontmatter.title}</a> {post.frontmatter.pubDate}</div>
+							<div>
+								<a href={post.url}>{post.frontmatter.title}</a> {post.frontmatter.description}
+							</div>
 
 							
 						</li>
 					))}
 				</ul>
-		
+		</section>
 		</main>
 		<!--
 			<Footer />
