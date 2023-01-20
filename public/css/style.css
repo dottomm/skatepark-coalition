@@ -31,8 +31,13 @@
     src: url(/fonts/marvin-visions/Web/MarvinVisions-Bold.woff);
   }
 
-  .navbar{
-    display: sticky;
+  pre{
+    margin-top:1em;
+    margin-bottom:1em;
+
+    font-size:2.2em;
+    line-height:180%;
+    
   }
   h1{
     font-family: rockFont;
@@ -218,6 +223,39 @@ justify-content: center;
   background-color:var(--skate-accent-color);
   
 }
+
+.blog{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-items:center;
+  justify-content: center;
+  flex-wrap: wrap;
+  background-color: #fff;
+  color:#444;
+}
+
+.blog p{
+  font-size:1.3em;
+  line-height:180%;
+  margin-left:1em;
+  margin-bottom:6px;
+  text-align: justify;
+}
+
+.blog .funds{
+  color: var(--skate-accent-color);
+}
+
+article{
+  width: 780px;
+}
+
+article img{
+padding:1em;
+
+}
+  
   input[type=text], select {
     width: 100%;
     padding: 12px 20px;
@@ -244,11 +282,13 @@ justify-content: center;
     background-color: #45a049;
   }
 
-  
-
-card{
-    line-height: 300%;
+  article{
+   
+    font-size:smaller;
+    max-width:1200px;
   }
+
+
 
 .text-accent{
     font-style: italic;

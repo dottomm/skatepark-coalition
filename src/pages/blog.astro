@@ -1,0 +1,138 @@
+---
+//import Layout from '../layouts/Layout.astro';
+import BaseHead from '../components/BaseHead.astro';
+import Header from '../components/Header.astro';
+//import Footer from '../components/Footer.astro';
+//import Paginator from '../components/Paginator.astro';
+
+import { SITE_TITLE, SITE_DESCRIPTION } from '../config';
+
+// Use Astro.glob() to fetch all posts, and then sort them by date.
+const posts = (await Astro.glob('./posts/*.{md,mdx}')).sort(
+	(a, b) => new Date(b.frontmatter.pubDate).valueOf() - new Date(a.frontmatter.pubDate).valueOf()
+);
+
+
+
+---
+
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
+		<style>
+			body{
+				background-color:#ccc;
+			}
+			ul {
+				max-width:860px;
+				list-style-type: none;
+				padding: unset;
+			}
+			ul li {
+				display: flex;
+				font-weight: bold;
+			}
+			ul li time {
+				font-style: italic;
+				color: #222;
+				font-size: small;
+			}
+
+			.blog-links_list .blog_link{
+				transition: transform 100ms ease-in-out;
+				display: flex;
+
+			}
+
+			.blog-links_list .blog_link a{
+				justify-content: center;
+				display:flex;
+				width: 100%;
+				text-decoration: none;
+				color:#fff;
+
+			}
+
+			
+			
+			.blog-links_list li{
+				min-height: 6em;
+				flex-direction: column;
+				text-align: center;
+				justify-content: center;
+				margin-bottom: 1rem;
+				border:2px solid #5ca9f2;
+				background-color:var(--color-secondary);
+					border-radius: 18px;
+			}
+
+			.blog-links_list li p{
+				color:#222;
+			}
+
+			
+			.blog-links_list li a:visited {
+				color: #222;
+				font-weight: bold;
+			}
+
+			.blog-links_list li a:hover{
+				transform: scale (1.035);
+				
+			}
+
+			form input {
+  			width: 100%;
+			}
+
+			form input[type=text] {
+			width: 100%;
+			padding: 12px 20px;
+			margin: 8px 0;
+			box-sizing: border-box;
+			}
+
+			.hidden{
+				display: none;
+			}
+
+			.btn{
+				width: 100%;
+				padding:1rem;
+				cursor: pointer;
+			}
+
+			.message{
+				font-family: roboto;
+				font-size:1.3rem;
+			}
+
+ 
+ .btn a:hover{
+	background-color: #FF6347;
+}
+			
+		</style>
+	</head>
+	<body>
+		<Header />
+		<main>
+			<section>
+				<ul class='blog-links_list'>
+					{posts.map((post) => (
+						<li class='blog_link'>
+							
+							<div><a href={post.url}>{post.frontmatter.title}</a> {post.frontmatter.pubDate}</div>
+
+							
+						</li>
+					))}
+				</ul>
+		
+		</main>
+		<!--
+			<Footer />
+		 -->
+	</body>
+</html>
