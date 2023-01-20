@@ -208,6 +208,19 @@ justify-content: center;
   background-repeat: no-repeat;
 }
 
+.footer{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-items:center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  background-color: #FB4451;
+  background-size: cover;
+  background-image: url("../images/aiden-sharkey.jpeg");
+  background-repeat: no-repeat;
+}
+
 .credit{
   max-height: 50px;
   display: flex;
@@ -304,4 +317,4 @@ padding:1em;
       overflow: hidden;    
 
   }
-
+  }
