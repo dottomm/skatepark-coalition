@@ -240,11 +240,10 @@ justify-content: center;
 }
 
 .blog p{
-  font-size:1.3em;
+  font-size:1.2em;
   line-height:180%;
-  margin-left:1em;
+  margin-left:.3em;
   margin-bottom:6px;
-  text-align: justify;
 }
 
 .blog .funds{
@@ -253,7 +252,7 @@ justify-content: center;
 
 article{
   line-height: 1.8;
-  padding: 1em;
+  padding: .4em;
   display: flex;
   flex-direction: column;
 }
@@ -301,7 +300,7 @@ padding:1em;
 
 
 
-  @media only screen and (max-width: 1100px) {
+  @media only screen and (max-width: 1220px) {
     .form{
       background-image: url('../images/luma-bowl.jpg');
     }
@@ -319,9 +318,9 @@ padding:1em;
     }
     .article{
       overflow: hidden;    
-
+      text-align: left;
     }
-   
+
    
     .logos-small {
       
