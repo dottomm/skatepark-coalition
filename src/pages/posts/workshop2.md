@@ -10,7 +10,7 @@ author: LSC
 ## More Pizza
 Bjorn Griepenburg, bought pizzas AGAIN and hosted another community workshop again with Grindline's Matt Fluegga to further the discussion and inform the public of the steps they have taken toward a new Petaluma Skate park since the last meeting in January. 
 
-Thank you to Matt again for coming all this way to be a part of the discussion personally. 
+Thank you to Matt again for coming all this way to personally be a part of the discussion . 
 
 
 ##  A Location was Chosen
