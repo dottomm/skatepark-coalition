@@ -45,11 +45,11 @@ import Layout from '../layouts/Layout.astro';
 			
 		</section>
 		<section class='newAnnounce' id='newAnnounce'>
-			
 			<div class='content'>
-				<p>The Next Community Workshop will be Tuesday, February 21 at 6 PM in the Petaluma Community Center (320 N. McDowell Blvd.).</p>
-				<p>We hope to see you there!!</p>
+				<h4>Workshop # 2 February 21, 2023</h4>
 			</div>
+			<p>Workshop # 2 was another great turn out! The City of Petaluma issued a poll to the attendees to vote on a favorite location, and they chose <a href='https://goo.gl/maps/oCjGc2gDWCyfM85t8' target='_blank'>Luccessi Park</a>. The Parks and Recreation department will bring these recommendations to the next City Planning Meeting. All interested parties are recommended to attend. Date, Time and Location will be posted here as soon as confirmed. <a href='posts/workshop2/'>Read More</a></p>
+			
 			
 		</section>
 		<section class='announce' id='announce'>
@@ -72,7 +72,17 @@ import Layout from '../layouts/Layout.astro';
 		</section>
 
 		<section class='belowFold' id='belowFold'>
-			<h2>Estimated Completion: Summer 2023
+
+			<h2>
+				Estimated Completion:  
+				<strike style='color:red; 
+				transform: rotate(70deg);
+				-ms-transform: rotate(-10deg);	 /*  for IE  */
+				/* 	for browsers supporting webkit (such as chrome, firefox, safari etc.). */
+				-webkit-transform: rotate(-10deg);
+				display: inline-block;)'>
+				<span style='color:#fff;'>&nbsp; Summer 2023 &nbsp;</span>
+				</strike>??
 
 			</h2>
 			
@@ -108,6 +118,15 @@ import Layout from '../layouts/Layout.astro';
 		background-size: 400%;
 		background-position: 0%;
 	}
+
+.newAnnounce a {
+	color: var(--skate-accent-color);
+}
+.newAnnounce a:hover {
+	color: var(--main-font-color);
+
+}
+
 	
 </style>
 <script src="https://code.iconify.design/iconify-icon/1.0.2/iconify-icon.min.js"></script>
