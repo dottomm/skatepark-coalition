@@ -18,7 +18,9 @@ The Parks and Recreation Department surveyed the workshop attendees using a mobi
 
 
 ## Next Steps
-The Parks and Recreation department will bring these recommendations to the next City Planning Meeting. All interested parties are recommended to attend. Date, Time and Location will be posted here as soon as confirmed. 
+The Parks and Recreation department will bring these recommendations to the to the Recreation, Music, and Parks Commission.  Wednesday, March 15, 6 PM at City Hall. 11 English Street, Petaluma, CA. All interested parties are recommended to attend. 
+
+You can <a href='https://cityofpetaluma.org/meetings/' target='_blank'>read the meeting agenda here</a>
     
 Remember to spread the word and encourage people to join the  [mailing list](../../index.html#aboveFold). 
 
