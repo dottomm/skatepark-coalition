@@ -21,3 +21,6 @@ pnpm-debug.log*
 
 #credentials
 credentials.txt
+
+#art folder
+/art
