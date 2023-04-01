@@ -79,4 +79,4 @@ Meeting ID: 849 9208 1844 (dial *9 to raise hand to speak)
 
 
 
-Please support our movement by following us on [Instagram](https://www.instagram.com/lumaskateparkcoalition/)
+Please show your support by following us on [Instagram](https://www.instagram.com/lumaskateparkcoalition/)
