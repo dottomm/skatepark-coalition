@@ -83,14 +83,16 @@
       
       background-color: var(--skate-accent-color);
    
-            background-image: url('../images/chicken.svg');
+            background-image: url( '../images/luma-bowl.jpg');
 
       background-repeat: no-repeat;
       background-position: center;
-      background-size:10%;
+      background-size:100%;
       display: flex;
-      justify-content: center;      
+      justify-content: center;
+      text-align: center;      
       flex-direction: row;
+      flex-wrap: wrap;
       overflow:visible;
       height: 300px;
     }
@@ -129,6 +131,8 @@
   justify-content: center;
   flex-wrap: wrap;
   background-color: var(--form-accent-color);
+  background-image: url('../images/chicken.svg');
+  background-repeat: no-repeat;
   color:#000;
 
 }
@@ -326,7 +330,7 @@ padding:1em;
       background-image: url('../images/sm-aiden-sharkey.jpg');
     }
     .header{
-      background-size: 15%;
+      background-size: 115%;
       background-position: center bottom;
       max-height: 220px;
     }
