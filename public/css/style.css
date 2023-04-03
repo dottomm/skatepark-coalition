@@ -74,7 +74,8 @@
 
  
     section{
-      padding:1em;
+      padding:0em;
+      margin:0em;
       min-height: 425px;
       align-content: center;
     }
