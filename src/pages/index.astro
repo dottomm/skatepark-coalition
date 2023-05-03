@@ -1,7 +1,6 @@
 ---
 import Layout from '../layouts/Layout.astro';
 
-
 ---
 
 <Layout title="Luma Skatepark Coalition">
@@ -12,37 +11,6 @@ import Layout from '../layouts/Layout.astro';
 			
 		</div>
 	
-		<!--
-			<section class='message' id='message'>
-			<span class='content'>
-				<p >A coalition of skateboarders and supporters dedicated to revitalize and build new skateparks in Petaluma. </p>
-				</span>
-		</section>
-		 -->
-		<!--
-			<section class='bowl' id='bowl'>
-			
-			<h1>We Need A New Skatepark!</h1>
-		
-			
-			
-		</section>
-		 -->
-
-		 <section class='newAnnounce' id='newAnnounce'>
-			<div class='content'>
-				<a href='/posts/weneedyou'>
-					<h4>We Need You To Show Up!!!!</h4>
-				</a>
-			
-			<p>Petaluma City Hall 6:30pm this Monday April 3, 2023.</p>
-			<p class='small'><a href='/posts/weneedyou'>Learn to participate in-person or online. </a></p>
-			
-			
-
-						</div>
-		</section>
-
 		<section class='aboveFold' id='form'>
 			<div class='insta'>
 				<p><a href='https://www.instagram.com/lumaskateparkcoalition/'>
@@ -70,6 +38,15 @@ import Layout from '../layouts/Layout.astro';
 				</div>
 			
 		</section>
+		<section class='tikTok' id='tikTok'>
+			
+			
+			<p>Watch Thousand Oaks Skaters appeal to their city coucil for a skater-friendly city</p>
+
+		<blockquote class="tiktok-embed" cite="https://www.tiktok.com/@chadandjt/video/7226504839373638955" data-video-id="7226504839373638955" > <script async src="https://www.tiktok.com/embed.js"></script>
+
+	
+</section>
 		
 		
 		
@@ -113,12 +90,29 @@ import Layout from '../layouts/Layout.astro';
 		
 		
 	
-		
 	</main>
 </Layout>
 
 <style>
+	.tikTok {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-around;
+		background-color: var( --form-accent-color);
+	}
+
+	.tikTok .blockquote{
+		width:800px;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-around;
+	}
+	.tikTok .desc{
 	
+		width: 400px;
+		color:black;
+		margin-top: 200px;
+	}
 
 	.text-gradient {
 		background-image: var(--accent-gradient);
