@@ -5,27 +5,21 @@ import Layout from '../layouts/Layout.astro';
 
 <Layout title="Luma Skatepark Coalition">
 	<main>
-		
 		<div class='header'>
 			<h1 >Petaluma Skatepark Coalition</h1>
-			
 		</div>
-	
 		<section class='aboveFold' id='form'>
 			<div class='insta'>
 				<p><a href='https://www.instagram.com/lumaskateparkcoalition/'>
 					<iconify-icon block icon="skill-icons:instagram" width="70%" flip="horizontal,vertical"></iconify-icon>	</a>
-				</p>
-				
-					<p>Show Your Support<br /> Follow Us On Instagram!</p>
+				</p>		
+				<p>Show Your Support<br /> Follow Us On Instagram!</p>
 			</div>
 	
-				<div class='form-wrapper'>
-					<h3>Join the Coalition!</h3>
-						
-						<p>Join our mailing list for updates & add your name to the list of supporters who believe Petaluma deserves world-class skate facilites.  </p>
-						
-					<form  action="https://api.staticforms.xyz/submit" method="post">
+			<div class='form-wrapper'>
+				<h3>Join the Coalition!</h3>
+				<p>Join our mailing list for updates & add your name to the list of supporters who believe Petaluma deserves world-class skate facilites.  </p>
+				<form  action="https://api.staticforms.xyz/submit" method="post">
 					<input type="text" name="name" placeholder="Name" required>
 					<input type="text" name="email" placeholder="Email" required/>
 					<input type="text" name="honeypot" style="display:none">
@@ -34,14 +28,12 @@ import Layout from '../layouts/Layout.astro';
 					<input type="hidden" name="replyTo" value="@">
 					<input type="hidden" name="redirectTo" value="https://luma-skate-park.netlify.app/success/">
 					<input type="submit" value="Sign Me Up!" />
-					</form>
-				</div>
-			
+				</form>
+			</div>
 		</section>		
 
 		<section class='belowFold' id='belowFold'>
-			<h2>
-				Estimated Completion:  
+			<h2>Estimated Completion:  
 				<strike style='color:red; 
 				transform: rotate(70deg);
 				-ms-transform: rotate(-10deg);	 /*  for IE  */
@@ -49,27 +41,21 @@ import Layout from '../layouts/Layout.astro';
 				-webkit-transform: rotate(-10deg);
 				display: inline-block;)'>
 				<span style='color:#fff;'>&nbsp; Summer 2023 &nbsp;</span>
-				</strike>??
+				</strike>??</h2>
+			</section>
+	
+			<section class='announce' id='announce'>
+				<div>			
+					<card>
+						<p>Learn about the <a href='https://cityofpetaluma.org/skate-park-design/' target="_blank">New Skatepark Project</a> at cityofpetaluma.org.</p>
+						<p>Read the GrindLine Skateparks  <a href="https://storage.googleapis.com/proudcity/petalumaca/uploads/2023/01/Online-Survey-Results.pdf" target="_blank">online survey results</a>. </p>
+						<p>Read the City of Petaluma  <a href="https://storage.googleapis.com/proudcity/petalumaca/uploads/2023/01/Community-Workshop-1-Survey-Results.pdf" target="_blank">hardcopy survey results</a>. </p>
+					</card>
+				</div>
+			</section>
 
-			</h2>
-			
-		</section>
-		<section class='announce' id='announce'>
-			<div>
-				
-			<card>
-				<p>Learn about the <a href='https://cityofpetaluma.org/skate-park-design/' target="_blank">New Skatepark Project</a> at cityofpetaluma.org.</p>
-
-				<p>Read the GrindLine Skateparks  <a href="https://storage.googleapis.com/proudcity/petalumaca/uploads/2023/01/Online-Survey-Results.pdf" target="_blank">online survey results</a>. </p>
-			<p>Read the City of Petaluma  <a href="https://storage.googleapis.com/proudcity/petalumaca/uploads/2023/01/Community-Workshop-1-Survey-Results.pdf" target="_blank">hardcopy survey results</a>. </p>
-			</card>
-			</div>
-		</section>
-
-		<section class='credit' id='credit'>
-			
+			<section class='credit' id='credit'>
 			<p>photos of  AIDEN SHARKEY by <a href='https://www.petaluma360.com/crissy-pascual/' target="_blank">CRISSY PASCUAL/ARGUS-COURIER</a> STAFF</p>
-			
 			
 		</section>
 	
