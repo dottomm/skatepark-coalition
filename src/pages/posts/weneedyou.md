@@ -1,7 +1,7 @@
 ---
 
 layout: "../../layouts/BlogPost.astro"
-heroImage: "../../images/post-images/meetin g-sign.png"
+heroImage: "../../images/post-images/meeting-sign.png"
 smHeroImage: "../../images/post-images/smallest-meeting-sign.png"
 title: We need you to show up
 description: On March 15 the city’s Skate Petaluma Project Team presented to the Recreation, Music, & Parks Commission--where all Commissioners voiced their support for this project and the skating community’s preferred location for a new skatepark at Lucchesi Park.  community memebers in the Skate Petaluma project.
