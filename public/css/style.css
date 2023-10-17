@@ -199,9 +199,16 @@ justify-content: center;
   justify-items:center;
   justify-content: space-evenly;
   flex-wrap: wrap;
-  background-color: var(--announce-color);
-  height: 300px;
-  
+  background-color: var(--form-accent-color);
+  height: 370px;
+  padding:3em;
+  color:black;  
+ }
+ .announce p{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-top: 1em;
  }
  .announce2{
   display: flex;
@@ -211,7 +218,7 @@ justify-content: center;
   justify-content: space-evenly;
   flex-wrap: wrap;
   background-color: var(--skate-accent-color);
-  height: 300px;
+ 
 
 }
 
